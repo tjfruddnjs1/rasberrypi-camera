@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <title>CCTV 녹화 영상</title>
+
+    <style>
+        video{
+            width : 50%;
+            display : block;
+            margin-bottom : 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <video src="/recordCCTV/20210602.mp4" controls></video>
+
+    <button type="button" class="btn btn-success" onclick="location.href='/stream/stream.jpeg'">실시간</button>
+</body>
+</html>
